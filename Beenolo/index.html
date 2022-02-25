@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/14cd4ab8a5.js" crossorigin="anonymous"></script>
     <title>Beenolo</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="Assets/css/main.css">
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> -->
@@ -18,8 +18,12 @@
         <div class="header">
             <div class="container">
                 <div class="nav">
-                    <img src="Image/logo.svg" alt="logo">
+                    <img src="Assets/Image/logo.svg" alt="logo">
                     <i class="fas fa-bars"></i>
+                    <!-- <ul>
+                        <li>SignUp</li>
+                        <li>Login</li>
+                    </ul> -->
                     <!-- <i class="fa-solid fa-bars"></i> -->
                 </div>
             </div>
@@ -38,15 +42,15 @@
                         <button class="btn">CREATE</button>
                     </div>
                     <div class="down_arrow">
-                        <img src="Image/down_arrow.svg" alt="down_arrow">
+                        <img src="Assets/Image/down_arrow.svg" alt="down_arrow">
                     </div>
                 </div>
             </section>
         </div>
 
-        <section class="section section_2">
+        <section class="sec section_2">
             <span style="float: left;">
-                <img src="Image/unicorn.png" alt="">
+                <img src="Assets/Image/unicorn.png" alt="">
             </span>
             <div class="container">
                 <div class="content-unicorn">
@@ -58,9 +62,9 @@
                     </p>
                 </div>
 
-                <div>
-                    <div class="unicorn">
-                        <img src="Image/unicorn1.jpg" alt="unicorn1">
+                <div class="left-right-slider">
+                    <div class="unicorn slide">
+                        <img src="Assets/Image/unicorn1.jpg" alt="unicorn1">
                         <div class="inner-unicorn">
                             <p>Porcelain Modern Human Faces Stute</p>
                             <h3>$ 120</h3>
@@ -68,8 +72,8 @@
                         </div>
                     </div>
 
-                    <div class="unicorn">
-                        <img src="Image/unicorn2.jpg" alt="unicorn2">
+                    <div class="unicorn slide">
+                        <img src="Assets/Image/unicorn2.jpg" alt="unicorn2">
                         <div class="inner-unicorn">
                             <p>Porcelain Modern Human Faces Stute</p>
                             <h3>$ 120</h3>
@@ -77,8 +81,8 @@
                         </div>
                     </div>
 
-                    <div class="unicorn">
-                        <img src="Image/unicorn3.jpg" alt="unicorn3">
+                    <div class="unicorn slide">
+                        <img src="Assets/Image/unicorn3.jpg" alt="unicorn3">
                         <div class="inner-unicorn">
                             <p>Porcelain Modern Human Faces Stute</p>
                             <h3>$ 120</h3>
@@ -86,28 +90,38 @@
                         </div>
                     </div>
 
-                    <div class="unicorn">
-                        <img src="Image/unicorn4.jpg" alt="unicorn4">
+                    <div class="unicorn slide">
+                        <img src="Assets/Image/unicorn4.jpg" alt="unicorn4">
                         <div class="inner-unicorn">
                             <p>Porcelain Modern Human Faces Stute</p>
                             <h3>$ 120</h3>
                             <button>CONTACT NOW</button>
                         </div>
                     </div>
+
+                    <!-- <div class="unicorn slide">
+                        <img src="Assets/Image/unicorn1.jpg" alt="unicorn1">
+                        <div class="inner-unicorn">
+                            <p>Porcelain Modern Human Faces Stute</p>
+                            <h3>$ 120</h3>
+                            <button>CONTACT NOW</button>
+                        </div>
+                    </div> -->
+
                     <div class="a side">
                         <!-- <span></span> -->
-                        <img src="data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 16C0 24.8368 7.16318 32 16 32C24.8368 32 32 24.8368 32 16C32 7.16318 24.8368 0 16 0C7.16318 0 0 7.16318 0 16ZM1.74059 16C1.74059 8.16736 8.16736 1.74059 16 1.74059C23.8326 1.74059 30.2594 8.16736 30.2594 16C30.2594 23.8326 23.8326 30.2594 16 30.2594C8.16736 30.2594 1.74059 23.8326 1.74059 16Z' fill='white'/%3E%3Cpath d='M15.8387 25L7 16L15.8387 7L17 8.24818L9.45161 16L17 23.7518L15.8387 25Z' fill='white'/%3E%3Cpath d='M8 15H24V17H8V15Z' fill='white'/%3E%3C/svg%3E%0A"
+                        <img onclick="controller(-1)" src="data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 16C0 24.8368 7.16318 32 16 32C24.8368 32 32 24.8368 32 16C32 7.16318 24.8368 0 16 0C7.16318 0 0 7.16318 0 16ZM1.74059 16C1.74059 8.16736 8.16736 1.74059 16 1.74059C23.8326 1.74059 30.2594 8.16736 30.2594 16C30.2594 23.8326 23.8326 30.2594 16 30.2594C8.16736 30.2594 1.74059 23.8326 1.74059 16Z' fill='white'/%3E%3Cpath d='M15.8387 25L7 16L15.8387 7L17 8.24818L9.45161 16L17 23.7518L15.8387 25Z' fill='white'/%3E%3Cpath d='M8 15H24V17H8V15Z' fill='white'/%3E%3C/svg%3E%0A"
                             alt="left_side">
-                        <span>1</span>
-                        <span>2</span>
-                        <img src="data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M32 16C32 24.8368 24.8368 32 16 32C7.16318 32 0 24.8368 0 16C0 7.16318 7.16318 0 16 0C24.8368 0 32 7.16318 32 16ZM30.2594 16C30.2594 8.16736 23.8326 1.74059 16 1.74059C8.16736 1.74059 1.74059 8.16736 1.74059 16C1.74059 23.8326 8.16736 30.2594 16 30.2594C23.8326 30.2594 30.2594 23.8326 30.2594 16Z' fill='white'/%3E%3Cpath d='M16.1613 25L25 16L16.1613 7L15 8.24818L22.5484 16L15 23.7518L16.1613 25Z' fill='white'/%3E%3Cpath d='M24 15H8V17H24V15Z' fill='white'/%3E%3C/svg%3E%0A"
+                        <!-- <span>1</span>
+                        <span>2</span> -->
+                        <img onclick="controller(-1)" src="data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M32 16C32 24.8368 24.8368 32 16 32C7.16318 32 0 24.8368 0 16C0 7.16318 7.16318 0 16 0C24.8368 0 32 7.16318 32 16ZM30.2594 16C30.2594 8.16736 23.8326 1.74059 16 1.74059C8.16736 1.74059 1.74059 8.16736 1.74059 16C1.74059 23.8326 8.16736 30.2594 16 30.2594C23.8326 30.2594 30.2594 23.8326 30.2594 16Z' fill='white'/%3E%3Cpath d='M16.1613 25L25 16L16.1613 7L15 8.24818L22.5484 16L15 23.7518L16.1613 25Z' fill='white'/%3E%3Cpath d='M24 15H8V17H24V15Z' fill='white'/%3E%3C/svg%3E%0A"
                             alt="right_side">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section section_1">
+        <section class="sec section_1">
             <div class="container">
                 <div class="content-seller" id="seller">
                     <h1>Are you a Seller?</h1>
@@ -119,7 +133,7 @@
                     <button class="btn">GET STARTED</button>
                 </div>
                 <div class="image-seller">
-                    <img src="Image/areSeller_image.png" alt="areSeller_image">
+                    <img src="Assets/Image/areSeller_image.png" alt="areSeller_image">
                 </div>
             </div>
             <div class="a">
@@ -127,7 +141,7 @@
             </div>
         </section>
 
-        <section class="section section_2">
+        <section class="sec section_2">
             <div class="container">
                 <div class="content-unicorn">
                     <h1>Most Requested</h1>
@@ -139,7 +153,7 @@
                 </div>
                 <div>
                     <div class="unicorn req">
-                        <img src="Image/requested1.jpg" alt="requested1">
+                        <img src="Assets/Image/requested1.jpg" alt="requested1">
                         <div class="inner-unicorn">
                             <p>Porcelain Modern Human Faces Stute</p>
                             <h3>$ 120</h3>
@@ -147,7 +161,7 @@
                     </div>
 
                     <div class="unicorn req">
-                        <img src="Image/requested2.jpg" alt="requested2">
+                        <img src="Assets/Image/requested2.jpg" alt="requested2">
                         <div class="inner-unicorn">
                             <p>Porcelain Modern Human Faces Stute</p>
                             <h3>$ 120</h3>
@@ -155,7 +169,7 @@
                     </div>
 
                     <div class="unicorn req">
-                        <img src="Image/requested3.jpg" alt="requested3">
+                        <img src="Assets/Image/requested3.jpg" alt="requested3">
                         <div class="inner-unicorn">
                             <p>Porcelain Modern Human Faces Stute</p>
                             <h3>$ 120</h3>
@@ -163,7 +177,7 @@
                     </div>
 
                     <div class="unicorn req">
-                        <img src="Image/requested4.jpg" alt="requested4">
+                        <img src="Assets/Image/requested4.jpg" alt="requested4">
                         <div class="inner-unicorn">
                             <p>Porcelain Modern Human Faces Stute</p>
                             <h3>$ 120</h3>
@@ -171,7 +185,7 @@
                     </div>
 
                     <div class="unicorn req">
-                        <img src="Image/requested5.jpg" alt="requested5">
+                        <img src="Assets/Image/requested5.jpg" alt="requested5">
                         <div class="inner-unicorn">
                             <p>Porcelain Modern Human Faces Stute</p>
                             <h3>$ 120</h3>
@@ -179,7 +193,7 @@
                     </div>
 
                     <div class="unicorn req">
-                        <img src="Image/requested6.jpg" alt="requested6">
+                        <img src="Assets/Image/requested6.jpg" alt="requested6">
                         <div class="inner-unicorn">
                             <p>Porcelain Modern Human Faces Stute</p>
                             <h3>$ 120</h3>
@@ -194,7 +208,7 @@
         </section>
 
         <div class="deal-bg">
-            <section class="section">
+            <section class="sec">
                 <div class="container">
                     <div class="content-unicorn" id="deal">
                         <h1>Get a Deal</h1>
@@ -210,7 +224,7 @@
             </section>
         </div>
 
-        <section class="section section_2">
+        <section class="sec section_2">
             <div class="container">
                 <div class="content-seller" id="missing">
                     <h1>Quit Missing Out On Hard To Find Items</h1>
@@ -225,7 +239,7 @@
                     <button class="btn">CREATE</button>
                 </div>
                 <div class="image-seller">
-                    <img src="Image/missing_image.png" alt="missing_image">
+                    <img src="Assets/Image/missing_image.png" alt="missing_image">
                 </div>
             </div>
             <div class="a">
@@ -236,7 +250,7 @@
         <footer class="beenolo-footer">
             <div class="container">
                 <div class="beenolo-details">
-                    <img src="Image/logo.svg" alt="logo">
+                    <img src="Assets/Image/logo.svg" alt="logo">
                     <p>
                         Beenolo is a diffrent way to unite buyers and sellers.
                         <br>
@@ -288,6 +302,8 @@
             </div>
         </footer>
     </div>
+
+    <!-- <script src="Assets/JS/main.js"></script> -->
 </body>
 
 </html>

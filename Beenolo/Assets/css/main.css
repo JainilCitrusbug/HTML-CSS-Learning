@@ -1,0 +1,354 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.main {
+    margin: 0;
+}
+
+.nav {
+    padding: 40px 0;
+}
+
+.nav i {
+    float: right;
+    font-size: 43px;
+    padding: 5px;
+    color: white;
+}
+
+.container {
+    margin: 0 18%;
+    padding: 0 10px;
+}
+
+.header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 144px;
+    z-index: 9999;
+}
+
+.section {
+    padding: 250px 0 52px;
+}
+
+.sec{
+    padding: 145px 0;
+}
+
+.section_1 {
+    /* background-color: rgb(90, 88, 88); */
+    background-color: #1B1B1B;
+}
+
+.section_2 {
+    /* background-color: rgb(47, 46, 46); */
+    background-color:  #0F1112;
+}
+
+.landing_banner_wrapper {
+    color: white;
+    text-align: center;
+}
+
+.landing_banner_wrapper h1 {
+    font-size: 68px;
+    margin: 0 auto 40px;
+}
+
+.landing_banner_wrapper p {
+    font-size: 20px;
+    margin: 0 auto 40px;
+}
+
+.btn {
+    padding: 20px 100px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 1px;
+    background: linear-gradient(134.59deg, #00FFD1 0%, #00367E 118.65%);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: linear-gradient(134.59deg, #00367E 0%, #00FFD1 118.65%);
+    border-radius: 1px;
+    transition: all 0.3s ease-in-out;
+}
+
+.down_arrow {
+    text-align: center;
+    margin-top: 237px;
+}
+
+.unicorn {
+    float: left;
+    width: auto;
+    margin-right: 19px;
+}
+
+.unicorn img {
+    border-radius: 12px;
+}
+
+.a {
+    clear: both;
+    color: white;
+    text-align: center;
+}
+
+.a img{
+    width: 32px;
+    height: 32px;
+    padding: 0 50px;
+}
+
+.a span{
+    font-size: 34px;
+    padding: 0 8px;
+    opacity: 0.5;
+    font-family: Montserrat;
+}
+
+.side{
+    padding-top: 85px;
+}
+
+.side img{
+    cursor: pointer;
+}
+
+.inner-unicorn h3 {
+    color: #00FFD1;
+}
+
+.inner-unicorn p {
+    color: white;
+    font-size: 16px;
+}
+
+.inner-unicorn button {
+    border: 1px solid white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 82px;
+    background-color:  #0F1112;
+    color: white;
+    cursor: pointer;
+}
+
+.inner-unicorn button:hover {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 20px 82px;
+    background-color: white;
+    color:  #0F1112;
+
+}
+
+.btn_req button {
+    border: 1px solid white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 82px;
+    background-color:  #0F1112;
+    color: white;
+    cursor: pointer;
+}
+
+.btn_req button:hover {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 20px 82px;
+    background-color: white;
+    color:  #0F1112;
+
+}
+
+.btn_req {
+    clear: both;
+    text-align: center;
+}
+
+.content-unicorn {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content-unicorn h1 {
+    font-size: 48px;
+    margin-top: 0%;
+    color: white;
+}
+
+.content-unicorn p {
+    font-size: 18px;
+    margin: 0%;
+    color: white;
+}
+
+.content-seller {
+    float: left;
+}
+
+#seller {
+    margin-top: 86px;
+    width: 73%;
+}
+
+.content-seller h1 {
+    width: 70%;
+    font-size: 48px;
+    color: white;
+}
+
+.content-seller p {
+    font-size: 18px;
+    margin-top: 0%;
+    margin-bottom: 51px;
+    color: white;
+    width: 56%;
+}
+
+.image-seller {
+    float: left;
+}
+
+
+#deal p {
+    margin-bottom: 40px;
+    padding: 0px 172px;
+}
+
+#missing {
+    margin-top: 4px;
+    width: 60%;
+}
+
+.req {
+    margin-right: 10px;
+}
+
+.beenolo-footer {
+    padding: 100px 0;
+    background-color: #2C313F;
+}
+
+.beenolo-details {
+    float: left;
+    width: 384px;
+}
+
+.beenolo-details p {
+    color: white;
+    font-size: 18px;
+}
+
+.contact-details {
+    float: right;
+    width: 813px;
+}
+
+.contact-details table {
+    width: 100%;
+}
+
+.contact-details th {
+    font-size: 22px;
+    text-align: left;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.contact-details td {
+    font-size: 18px;
+    color: white;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.contact-details td:hover {
+    color: #00FFD1;
+}
+
+.banner {
+    /* background-image: url("C:/Users/Bansari/Desktop/Jainil/Image/landing_banner_bg.jpg"); */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: 100%;
+    z-index: 1;
+}
+
+.deal-bg {
+    /* background-image: url("C:/Users/Bansari/Desktop/Jainil/Image/deal_bg.jpg"); */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::before{
+    background: url("C:/Users/Bansari/Desktop/Jainil/Beenolo/Assets/Image/landing_banner_bg.jpg") no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.15;
+}
+
+.deal-bg::before{
+    background: url("C:/Users/Bansari/Desktop/Jainil/Beenolo/Assets/Image/deal_bg.jpg") no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.15;
+}
+
+/* .nav ul{
+    position: absolute;
+    top: calc(100% + 22px);
+    right: 0;
+    padding: 16px 0;
+    min-width: 192px;
+    background-color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+    display: block;
+    -webkit-box-shadow: 10px 10px 20px rgb(24 0 170 / 10%);
+    box-shadow: 10px 10px 20px rgb(24 0 170 / 10%);
+    z-index: 10;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin: 0;
+}
+
+.nav ul::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+} */
+
+/* .slide{
+    display: none;
+} */
