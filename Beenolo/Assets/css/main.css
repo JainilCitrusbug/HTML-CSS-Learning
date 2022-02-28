@@ -51,8 +51,26 @@ body {
 }
 
 .nav span{
-    padding-top: 25px;
+    padding-top: 11px;
     cursor: pointer;
+    float: right;
+}
+
+.nav_button{
+    padding: 13px 44px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 1px;
+    background: linear-gradient(134.59deg, #00FFD1 0%, #00367E 118.65%);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.nav_button:hover{
+    background: linear-gradient(134.59deg, #00367E 0%, #00FFD1 118.65%);
+    border-radius: 1px;
+    transition: all 0.3s ease-in-out;
 }
 
 
@@ -70,6 +88,10 @@ body {
 
 .sec{
     padding: 145px 0;
+}
+
+.sec_2{
+    padding: 60px 0;
 }
 
 .section_1 {
@@ -136,17 +158,19 @@ body {
 
 .a {
     clear: both;
-    color: white;
-    text-align: center;
+    /* color: white;
+    text-align: center; */
+    width: 0%;
+    height: 0%;
 }
 
-.a img{
+.side img{
     width: 32px;
     height: 32px;
     padding: 0 50px;
 }
 
-.a span{
+.side span{
     font-size: 34px;
     padding: 0 8px;
     opacity: 0.5;
@@ -155,6 +179,9 @@ body {
 
 .side{
     padding-top: 85px;
+    clear: both;
+    color: white;
+    text-align: center;
 }
 
 .side img{
@@ -174,7 +201,7 @@ body {
     border: 1px solid white;
     text-decoration: none;
     font-weight: bold;
-    padding: 20px 89px;
+    padding: 13px 89px;
     background-color:  #0F1112;
     color: white;
     cursor: pointer;
@@ -184,7 +211,7 @@ body {
 .inner-unicorn button:hover {
     border: 1px solid black;
     text-decoration: none;
-    padding: 20px 89px;
+    padding: 13px 89px;
     background-color: white;
     color:  #0F1112;
     transition: all 0.3s ease-in-out;
@@ -194,7 +221,7 @@ body {
     border: 1px solid white;
     text-decoration: none;
     font-weight: bold;
-    padding: 20px 82px;
+    padding: 23px 107px;
     background-color:  #0F1112;
     color: white;
     cursor: pointer;
@@ -204,7 +231,7 @@ body {
 .btn_req button:hover {
     border: 1px solid black;
     text-decoration: none;
-    padding: 20px 82px;
+    padding: 23px 107px;
     background-color: white;
     color:  #0F1112;
     transition: all 0.3s ease-in-out;
@@ -253,7 +280,7 @@ body {
     margin-top: 0%;
     margin-bottom: 51px;
     color: white;
-    width: 56%;
+    width: 59%;
 }
 
 .image-seller {
