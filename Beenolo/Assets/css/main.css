@@ -10,28 +10,58 @@ body {
     margin: 0;
 }
 
-.nav {
-    padding: 40px 0;
-}
-
-.nav i {
-    float: right;
-    font-size: 43px;
-    padding: 5px;
-    color: white;
-}
-
 .container {
     margin: 0 18%;
     padding: 0 10px;
 }
 
 .header {
-    background-color: black;
+    /* background-color: black; */
     position: fixed;
     width: 100%;
-    height: 144px;
+    /* height: 144px; */
     z-index: 9999;
+    transition: all 0.3s ease-in-out;
+}
+
+.header .nav {
+    padding: 40px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+/* .nav i {
+    float: right;
+    font-size: 43px;
+    padding: 5px;
+    color: white;
+} */
+
+.bn_bar {
+    background: url("data:image/svg+xml,%3Csvg width='41' height='27' viewBox='0 0 41 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 4.5V0H41V4.5H0ZM0 15.75H41V11.25H0V15.75ZM0 27H41V22.5H0V27Z' fill='white'/%3E%3C/svg%3E");
+    width: 41px;
+    height: 27px;
+    float: right;
+}
+
+.bn_icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+.nav span{
+    padding-top: 25px;
+    cursor: pointer;
+}
+
+
+.header.darkHeader{
+    background-color: black;
+}
+
+.darkHeader .nav{
+    padding: 10px 0;
 }
 
 .section {
@@ -90,6 +120,10 @@ body {
     margin-top: 237px;
 }
 
+.down_arrow img{
+    cursor: pointer;
+}
+
 .unicorn {
     float: left;
     width: auto;
@@ -140,19 +174,20 @@ body {
     border: 1px solid white;
     text-decoration: none;
     font-weight: bold;
-    padding: 20px 82px;
+    padding: 20px 89px;
     background-color:  #0F1112;
     color: white;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .inner-unicorn button:hover {
     border: 1px solid black;
     text-decoration: none;
-    padding: 20px 82px;
+    padding: 20px 89px;
     background-color: white;
     color:  #0F1112;
-
+    transition: all 0.3s ease-in-out;
 }
 
 .btn_req button {
@@ -163,6 +198,7 @@ body {
     background-color:  #0F1112;
     color: white;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .btn_req button:hover {
@@ -171,6 +207,7 @@ body {
     padding: 20px 82px;
     background-color: white;
     color:  #0F1112;
+    transition: all 0.3s ease-in-out;
 
 }
 

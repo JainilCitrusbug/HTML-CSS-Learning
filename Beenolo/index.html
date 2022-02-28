@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/14cd4ab8a5.js" crossorigin="anonymous"></script>
-    <title>Beenolo</title>
+    <title>Beenolo - Landing page</title>
     <link rel="stylesheet" href="Assets/css/main.css">
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,11 +15,12 @@
 
 <body>
     <div class="main">
-        <div class="header">
+        <div class="header darkHeader">
             <div class="container">
                 <div class="nav">
                     <img src="Assets/Image/logo.svg" alt="logo">
-                    <i class="fas fa-bars"></i>
+                    <!-- <i class="fas fa-bars"></i> -->
+                    <span class="bn_icon bn_bar"></span>
                     <!-- <ul>
                         <li>SignUp</li>
                         <li>Login</li>
@@ -224,7 +225,7 @@
             </section>
         </div>
 
-        <section class="sec section_2">
+        <section class="sec section_1">
             <div class="container">
                 <div class="content-seller" id="missing">
                     <h1>Quit Missing Out On Hard To Find Items</h1>
@@ -290,7 +291,7 @@
                         </tr>
 
                         <tr>
-                            <td>Terms & Conditioh</td>
+                            <td>Terms & Condition</td>
                             <td></td>
                             <td></td>
                         </tr>
@@ -304,6 +305,19 @@
     </div>
 
     <!-- <script src="Assets/JS/main.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <script>
+        $(window).scroll(function(){
+            if($(window).scrollTop()){
+                $(".header").addClass("darkHeader");
+            }
+            else{
+                $(".header").removeClass("darkHeader");
+            }
+        })
+    </script>
+
 </body>
 
 </html>
