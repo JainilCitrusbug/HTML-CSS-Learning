@@ -1,45 +1,23 @@
-let flag = 0;
+var button = document.getElementsByClassName('side');
+var div = document.getElementsByClassName('img_unicorn');
+console.log(button);
+console.log(div);
+var l = 0;
 
-function controller(x) {
-    flag = flag + x;
-    slideshow(flag); 
+button[1].onclick = ()=>{
+    l++;
+    for(var i of div){
+        if (l==0) {i.style.left = "0px";}
+        if (l==1) {i.style.left = "-300px";}
+        if (l>2) {l=2;}
+    }
 }
 
-slideshow(flag);
-
-function slideshow(num) {
-    let slides = document.getElementsByClassName("slide");
-    //  console.log(slides);
-
-    for(let y of slides){
-        y.style.display = "none";
+button[0].onclick = ()=>{
+    l--;
+    for(var i of div){
+        if (l==0) {i.style.left = "0px";}
+        if (l==1) {i.style.left = "-300px";}
+        if (l<0) {l=0;}
     }
-
-    if (num == slides.length) {
-        num = 0;
-        flag = 0;
-    }
-
-    if (num < 0) {
-        num = slides.length-1;
-        flag = slides.length-1;
-    }
-
-    slides[num].style.display = "block";
 }
-
-// var button = document.getElementsByClassName('side');
-// var div = document.getElementsByClassName('left-right-slider');
-// var l = 0;
-
-// button[1].onclick = ()=>{
-//     l++;
-//     for(var i of div){
-//         if (l==0) {i.style.left = "0px";}
-//         if (l==1) {i.style.left = "-740px";}
-//         if (l==2) {i.style.left = "-1480px";}
-//         if (l==3) {i.style.left = "-2220px";}
-//         if (l==4) {i.style.left = "-2960px";}
-//         if (l>4) {l=4;}
-//     }
-// }
