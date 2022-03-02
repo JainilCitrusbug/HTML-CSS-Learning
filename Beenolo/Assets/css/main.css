@@ -1,9 +1,18 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: 'Sofia Pro', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .main {
@@ -27,14 +36,14 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-.bn_bar {
+.bn-bar {
     background: url("data:image/svg+xml,%3Csvg width='41' height='27' viewBox='0 0 41 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 4.5V0H41V4.5H0ZM0 15.75H41V11.25H0V15.75ZM0 27H41V22.5H0V27Z' fill='white'/%3E%3C/svg%3E");
     width: 41px;
     height: 27px;
     float: right;
 }
 
-.bn_icon {
+.bn-icon {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -47,7 +56,7 @@ body {
     float: right;
 }
 
-.nav_button{
+.nav-button{
     padding: 13px 26px;
     margin-left: 5px;
     border: 0px;
@@ -59,7 +68,7 @@ body {
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
-.nav_button:hover{
+.nav-button:hover{
     background: linear-gradient(134.59deg, #00367E 0%, #00FFD1 118.65%);
     border-radius: 1px;
     transition: all 0.3s ease-in-out;
@@ -82,31 +91,33 @@ body {
     padding: 145px 0;
 }
 
-.sec_2{
+.sec-2{
     padding: 60px 0;
 }
 
-.section_1 {
+.section-1 {
     background-color: #1B1B1B;
 }
 
-.section_2 {
+.section-2 {
     background-color:  #0F1112;
 }
 
-.landing_banner_wrapper {
+.landing-banner-wrapper {
     color: white;
     text-align: center;
 }
 
-.landing_banner_wrapper h1 {
-    font-size: 68px;
-    margin: 0 auto 40px;
+.landing-banner-wrapper h1 {
+    font-size: 72px;
+    margin: 0 0 32px;
+    line-height: 73px;
 }
 
-.landing_banner_wrapper p {
-    font-size: 20px;
+.landing-banner-wrapper p {
+    font-size: 18px;
     margin: 0 auto 40px;
+    line-height: 28px;
 }
 
 .btn {
@@ -127,12 +138,12 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-.down_arrow {
+.down-arrow {
     text-align: center;
-    margin-top: 237px;
+    margin-top: 245px;
 }
 
-.down_arrow img{
+.down-arrow img{
     cursor: pointer;
 }
 
@@ -179,7 +190,7 @@ body {
 
 .inner-unicorn p {
     color: white;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .inner-unicorn button {
@@ -202,7 +213,7 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-.btn_req button {
+.btn-req button {
     border: 1px solid white;
     text-decoration: none;
     font-weight: bold;
@@ -213,7 +224,7 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-.btn_req button:hover {
+.btn-req button:hover {
     border: 1px solid black;
     text-decoration: none;
     padding: 23px 107px;
@@ -223,7 +234,7 @@ body {
 
 }
 
-.btn_req {
+.btn-req {
     clear: both;
     text-align: center;
 }
@@ -243,6 +254,7 @@ body {
     font-size: 18px;
     margin: 0%;
     color: white;
+    line-height: 28px;
 }
 
 .content-seller {
@@ -263,9 +275,11 @@ body {
 .content-seller p {
     font-size: 18px;
     margin-top: 0%;
-    margin-bottom: 51px;
+    margin-bottom: 48px;
     color: white;
-    width: 59%;
+    width: 588px;
+    height: 194px;
+    line-height: 28px;
 }
 
 .image-seller {
@@ -275,7 +289,8 @@ body {
 
 #deal p {
     margin-bottom: 40px;
-    padding: 0px 172px;
+    padding: 0px 120px;
+    line-height: 28px;
     /* text-align: center; */
 }
 
@@ -317,6 +332,7 @@ body {
     text-align: left;
     color: white;
     padding-bottom: 20px;
+    font-family: 'Sofia Pro', sans-serif;
 }
 
 .contact-details td {
@@ -324,6 +340,7 @@ body {
     color: white;
     padding-bottom: 10px;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact-details td:hover {
@@ -377,19 +394,19 @@ body {
     visibility: hidden;
 }
 
-.img_unicorn {
+.img-unicorn {
     margin-right: 5px;
     position: relative;
     left: 0;
     transition: 0.5s;
 }
 
-.side_button {
+.side-button {
     padding-top: 60px;
     text-align: center;
 }
 
-.side_button span {
+.side-button span {
     width: 32px;
     height: 32px;
     padding: 0 10px;

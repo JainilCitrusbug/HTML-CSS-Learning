@@ -1,5 +1,5 @@
 var button = document.getElementsByClassName('side');
-var div = document.getElementsByClassName('img_unicorn');
+var div = document.getElementsByClassName('img-unicorn');
 console.log(button);
 console.log(div);
 var l = 0;
